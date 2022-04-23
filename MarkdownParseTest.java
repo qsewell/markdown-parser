@@ -50,7 +50,7 @@ public class MarkdownParseTest {
     }
 
     @Test
-    public void MarkdownParseFileTester5() throws IOException {
+    public void MarkdownParseFileTester2v2() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr.add("https://something.com");
         arr.add("some-page.html");
@@ -58,42 +58,42 @@ public class MarkdownParseTest {
     }
 
     @Test
-    public void MarkdownParseFileTester6() throws IOException {
+    public void MarkdownParseFileTester3v2() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr.add("https://google.com");
         assertEquals(arr, MarkdownParse.getLinks(MarkdownParseTest.getMarkdown("test-file-4.md")));
     }
 
     @Test
-    public void MarkdownParseFileTester7() throws IOException {
+    public void MarkdownParseFileTester4v2() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr.add("https://google.com");
         assertEquals(arr, MarkdownParse.getLinks(MarkdownParseTest.getMarkdown("test-file-4.md")));
     }
 
     @Test
-    public void MarkdownParseFileTester8() throws IOException {
+    public void MarkdownParseFileTester5v2() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr.add("https://google.com");
         assertEquals(arr, MarkdownParse.getLinks(MarkdownParseTest.getMarkdown("test-file-4.md")));
     }
 
     @Test
-    public void MarkdownParseFileTester9() throws IOException {
+    public void MarkdownParseFileTester6v2() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr.add("https://google.com");
         assertEquals(arr, MarkdownParse.getLinks(MarkdownParseTest.getMarkdown("test-file-4.md")));
     }
 
     @Test
-    public void MarkdownParseFileTester10() throws IOException {
+    public void MarkdownParseFileTester7v2() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr.add("https://google.com");
         assertEquals(arr, MarkdownParse.getLinks(MarkdownParseTest.getMarkdown("test-file-4.md")));
     }
 
     @Test
-    public void MarkdownParseFileTester11() throws IOException {
+    public void MarkdownParseFileTester8v2() throws IOException {
         ArrayList<String> arr = new ArrayList<>();
         arr.add("https://google.com");
         assertEquals(arr, MarkdownParse.getLinks(MarkdownParseTest.getMarkdown("test-file-4.md")));
