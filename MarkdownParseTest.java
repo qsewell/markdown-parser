@@ -98,4 +98,11 @@ public class MarkdownParseTest {
         arr.add("https://google.com");
         assertEquals(arr, MarkdownParse.getLinks(MarkdownParseTest.getMarkdown("test-file-4.md")));
     }
+
+    @Test
+    public void MarkdownParseFileTester9() throws IOException {
+        ArrayList<String> arr = new ArrayList<>();
+        arr.add("https://google.com");
+        assertEquals(arr, MarkdownParse.getLinks(MarkdownParseTest.getMarkdown("test-file-4.md")));
+    }
 }

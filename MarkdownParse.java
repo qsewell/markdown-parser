@@ -19,7 +19,7 @@ public class MarkdownParse {
             int closeParen = markdown.indexOf(")", openParen);
             if(openBracket != -1 && closeBracket != -1 && openParen != -1 && closeParen != -1) {
                 try {
-                    if(!(markdown.substring(openBracket - 1, openBracket).equals("!"))) {      
+                    if(!(markdown.substring(openBracket - 1, openBracket).equals("!")) && !(markdown.substring(openBracket - 1, openBracket).equals("\\")) && markdown.substring(closeBracket + 1, closeBracket + 2).equals("[")) {      
                         toReturn.add(markdown.substring(openParen + 1, closeParen));
                     }
                 } catch(Exception e) {     
